@@ -6,4 +6,5 @@ import (
 
 func main() {
 	fileoperations.WriteEncryptedFile()
+	fileoperations.ReadEncryptedFile("test.godb")
 }
